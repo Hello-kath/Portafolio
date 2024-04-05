@@ -1,0 +1,427 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&family=Protest+Riot&family=Schoolbell&family=Stalinist+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Lexend+Deca:wght@100..900&family=Protest +Riot&family=Schoolbell&family=Estalinista+Uno&display=swap');
+*{
+    font-family: "Schoolbell";
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+}
+body{
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 100vh;
+}
+.main1{
+    margin-bottom: -500px;
+    
+}
+/* primera seccion, gif de gatito con la palabra Hello_kath */
+.main1 .section1{
+    background-color: black;
+    height: 125vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+/* contenedor de la imagen gatito */
+.section1 img{
+    bottom: 145px;
+    max-width: 95%;
+    height:85%;
+    position: relative;
+}
+.seccion1{
+    text-align: center;
+    height: 10%;
+    font-size: 50px;
+    position: relative;
+    bottom: 630px;
+}
+/* contenedor de la flecha */
+.footer1{
+    display: flex;
+    justify-content: center;
+    height: 45%;
+    
+}
+/* imagen de gif, flecha */
+.footer1 img {
+    height: 170px;
+    position: relative;
+    bottom: 550px;
+}
+/* contenido segundo, home, mi descripcion y menu */
+.main2{
+    height: 105vh;
+    width: 100%; 
+    background-image: url(/img/fondo2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.nav1{
+    display: flex;
+    width: 100%;
+    height: 15%;
+    justify-content: flex-end;
+    gap: 50px;
+    align-items: center;
+    padding-right: 100px;
+}
+.nav1 button{
+    height: 30%;
+    width: 15%;
+    border: solid white;
+    background-color: transparent;
+    color: white;
+    font-size: 25px;
+}
+.nav1 button:hover{
+    border: solid white;
+    background-color: gray;
+    color: white;
+}
+.main3{
+    display: flex;
+    height: 85%;
+    
+}
+.seccion2{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.seccion2 h2{
+    font-size: 50px;
+}
+.seccion2 .seccion3{
+    background: rgba(5,5,5, 0.4);
+    height: 60%;
+    width: 80%;
+    font-size: 35px;
+    padding: 45px;
+    margin-top: -150px;
+}
+.seccion3 p{
+    font-family: "Arimo";
+}
+
+.article2{
+    width: 50%;
+    height: 100%; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+.article2 .circulo{
+    border: solid white;
+    border-radius: 50%;
+    height: 50%;
+    width: 50%;
+}
+.redes{
+    display: flex;
+
+    width: 100%;
+    height: 20%;
+    justify-content: center;
+    gap: 30px;
+}
+.redes article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.redes article i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    border-radius: 50%;
+    
+}
+.redes article i:hover {
+    background-color: white;
+    color: black;
+}
+.main4{
+    height: 100%;
+    width: 100%; 
+}
+.main4-1{
+    width: 100%;
+    height: 80%;
+    display: flex;
+}
+.seccion4-1{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 35px;
+}
+.seccion4-1 img{
+    height: 80%;
+}
+.articulo4-1{
+    width: 50%;
+    height: 100%;
+    padding: 30px 30px 0 30px;
+    font-size: 30px;
+}
+.articulo4-1 p{
+    font-family: "Arimo";
+}
+.main4  .footer4-1{
+    padding: 0 25px 0 25px;
+    display: flex;
+    height: 20%;
+    justify-content: center;
+    gap: 15px;
+    align-items: center;
+}
+
+
+.main4 .footer4-1 button{
+    width: 50%;
+    height: 30%;
+    background-color: rgb(214, 120, 120);
+    font-size: 20px;
+}
+.main4  .footer4-1 button:hover{
+    background-color: rgb(255, 168, 168);
+}
+.main5{
+    width: 100%;
+    height: 100%;
+    background-image: url(/img/fondo3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.main5 .header5-1{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.main5 .header5-1 h2{
+    background-color: rgb(86, 21, 46);
+    padding: 10px 30px 10px 30px;
+    font-size: 45px;
+}
+.main5 .main5-1{
+    height: 70%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.main5 .main5-1 .parte{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0 25px 0 25px;
+    font-size: 25px;
+}
+
+.main5 .header5-1 h6{
+    font-size: 45px;
+}
+.main5 .seccion5-1 img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.main5 .articulo5-1 img{
+    height: 200px;
+    border-radius: 50%;
+}
+.main5 .aside5 img{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
+.main6{
+    height: 100%;
+    width: 100%;
+}
+.main6 .header6-1{
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+.main6 .main6-1{
+    display: flex;
+    height: 85%;
+}
+.main6 .main6-1 .seccion6{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main6 .main6-1 .seccion6 img{
+    border-radius: 10%;
+}
+.main6 .main6-1 .articulo6{
+    width: 50%;
+    height: 100%;
+    padding: 50px;
+    font-size: 30px;
+   
+}
+.main7{
+    display: flex;
+    flex-direction: column;
+    height: 105%;
+    background-color: #04040D;
+}
+.main7 .seccion7{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50%; 
+    font-size: 25px;
+}
+.main7 .articulos7{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    height: 50%; 
+    font-size: 25px;
+    
+}
+.main7 .articulos7 .seC{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.main7 .imga{
+    width: 200px;
+    border-radius: 50%;
+    border: 15px solid orange;
+}
+.main8{
+    height: 100%;
+    width: 100%;
+}
+.main8 .header8{
+    height: 15%;
+
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    font-size: 30px;
+} 
+.main8 .seccion8{
+
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center     ;
+
+}
+.main8 .articulo8 .imgs{
+    width: 150px;
+    border-radius: 50%;
+    border: 15px solid rgb(147, 126, 112);
+}
+.main8 .articulo8{
+    height: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.main8 .articulo8 .seC2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    font-size: 30px;
+}
+.main9{
+    height: 100%;
+    width: 100%;
+    background-image: url(/img/4a53eb4e-0c84-43ca-990f-333eec12d435.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main9 .header9{
+    height: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+.main9 .main9-1{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    height: 70%;
+}
+.main9 .main9-1 .seC3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    font-size: 40px;
+    gap: 20px;
+}
+.main9 .main9-1 .seC3 article{
+    background-color: rgba(1, 1,1, 0.9);
+    height: 80%;
+    width: 98%;
+}
+.footer9{
+    width: 100%;
+    background-color: black;
+    height: 15%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 30px;
+}
+.footer9 h3{
+    font-size: 70px;
+}
+.footer9 section{
+    display: flex;
+    gap: 45px;
+}
+.footer9 section article{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer9 img{
+    position: absolute;
+    top: 764%;
+    bottom: 70px;
+    left: 750px;
+}
